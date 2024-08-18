@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TEA HOUSE</title>
+    <!-- Tailwindcss cdn -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- google font cdn -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap"
+      rel="stylesheet"
+    />
+    <!-- font awesome cdn -->
+    <script
+      src="https://kit.fontawesome.com/945603a62f.js"
+      crossorigin="anonymous"
+    ></script>
+    <style>
+      .font-manrope {
+        font-family: "Manrope", sans-serif;
+      }
+    </style>
+  </head>
+  <body class="font-manrope">
+    <!-- hero section -->
+    <section class="hero-section">
+      <div class="hero-container p-4 md:flex lg:flex w-10/12 my-10 mx-auto">
+        <!-- left div content -->
+        <div class="w-1/2">
+          <h1 class="md:text-6xl lg:text-8xl font-bold">
+            It's good <br />
+            tea time at The Tea House
+          </h1>
+          <p class="text-gray-500 my-4">
+            Enjoy our freshly brewed, locally sourced tea. Don't forget to join
+            us for a delicious meal and enjoy a great time!
+          </p>
+          <button
+            class="bg-gradient-to-r from-orange-500 to-red-500 px-5 py-3 rounded-lg text-white font-bold"
+          >
+            Explore More<i class="fas fa-arrow-right -rotate-45 ml-1.5"></i>
+          </button>
+        </div>
+
+        <!-- right div img container  -->
+        <div class="w-1/2 relative">
+          <!-- img -->
+          <div class="w-full md:ml-10">
+            <img class="w-full" src="./images/banner.png" alt="" />
+          </div>
+          <!-- card -->
+          <div
+            class="absolute md:bottom-48 md:left-10 lg:bottom-8 lg:left-32 bg-white flex space-x-2 content-center shadow-lg p-3 lg:w-60 rounded-lg"
+          >
+            <div class="content-center">
+              <i class="fa-solid fa-star lg:text-2xl text-amber-500"></i>
+            </div>
+            <div>
+              <h2 class="lg:text-3xl font-bold">5.00</h2>
+              <p class="text-lg text-gray-500">Trust Pilot Ratings</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- featured products section  -->
+    <section class="featured w-10/12 mx-auto my-4">
+      <!-- heading  -->
+      <div class="heading w-10/12 text-center my-10 mx-auto">
+        <h2 class="lg:text-5xl font-extrabold lg:mb-4">
+          Our Featured Products
+        </h2>
+        <p class="text-gray-500">
+          Discover our diverse selection of tea products
+        </p>
+      </div>
+
+      <!-- cards  -->
+      <div class="card-container flex justify-between mx-auto">
+        <!-- card 1  -->
+        <div class="w-64 rounded-lg items-center p-6 shadow-md bg-gray-50">
+          <div class="">
+            <img class="h-52 w-32 mx-auto" src="./images/tea-1.png" alt="" />
+          </div>
+          <div class="card-content text-center">
+            <h3 class="text-2xl font-extrabold my-2">Black Tea</h3>
+            <p class="text-lg text-gray-500">The classic black tea</p>
+          </div>
+        </div>
+
+        <!-- card 2  -->
+        <div class="w-64 rounded-lg items-center p-6 shadow-md bg-gray-50">
+          <div class="">
+            <img class="h-52 w-32 mx-auto" src="./images/tea-2.png" alt="" />
+          </div>
+          <div class="card-content text-center">
+            <h3 class="text-2xl font-extrabold my-2">Green Tea</h3>
+            <p class="text-lg text-gray-500">The classic black tea</p>
+          </div>
+        </div>
+
+        <!-- card-3  -->
+        <div class="w-64 rounded-lg items-center p-6 shadow-md bg-gray-50">
+          <div class="">
+            <img class="h-52 w-32 mx-auto" src="./images/tea-3.png" alt="" />
+          </div>
+          <div class="card-content text-center">
+            <h3 class="text-2xl font-extrabold my-2">Milk Tea</h3>
+            <p class="text-lg text-gray-500">The classic black tea</p>
+          </div>
+        </div>
+
+        <!-- card 4  -->
+        <div class="w-64 rounded-lg items-center p-6 shadow-md bg-gray-50">
+          <div class="">
+            <img class="h-52 w-32 mx-auto" src="./images/tea-4.png" alt="" />
+          </div>
+          <div class="card-content text-center">
+            <h3 class="text-2xl font-extrabold my-2">Lemon Tea</h3>
+            <p class="text-lg text-gray-500">The classic black tea</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- great tea section  -->
+    <section>
+      <div class="flex justify-around w-10/12 my-8 mx-auto">
+        <!-- left div Image Section -->
+        <div class="container grid grid-cols-2 grid-rows-3 gap-5 py-6 w-4/12">
+          <div class="bg-gradient-to-r from-red-100 to-red-50 rounded-xl"></div>
+
+          <div class="bg-orange-50 rounded-xl row-span-2 h-96">
+            <img class="my-8 mx-auto" src="./images/fresh-1.png" alt="" />
+          </div>
+          <div class="h-96 bg-stone-100 rounded-xl row-span-2">
+            <img class="my-8 mx-auto" src="./images/fresh-2.png" alt="" />
+          </div>
+
+          <div
+            class="bg-gradient-to-r from-stone-200 to-stone-100 rounded-xl"
+          ></div>
+        </div>
+        <!-- right div text Section -->
+        <div class="w-7/12 p-6 content-center">
+          <div>
+            <h1 class="font-extrabold text-5xl mb-4">
+              Great Tea, Freshly Presented
+            </h1>
+            <p class="mb-6">
+              The meaning of gong cha is chanese is to provide the best tea to
+              emperor from all possessions . It represents the highest quality
+              and self expectation. Establishing in 2006, Gong cha had been
+              deeply appreciated by its custoers because of good words of mouth
+              and unique customized service orginated from Taiwan.
+            </p>
+          </div>
+
+          <div>
+            <h1 class="font-bold text-2xl mb-4">Unique Test</h1>
+            <p class="mb-6">
+              Gongcha tea is not just a tea, it's a life-changing experience.
+              It's a way to connect with the spirit world, to feel the warmth of
+              the earth, to feel the comfort of the sun. From the moment you
+              open the cup, you feel a sense of peace and happiness. It's a way
+              to enjoy life with a heart full of love and a spirit full of life.
+            </p>
+          </div>
+
+          <div>
+            <h1 class="font-bold text-2xl mb-4">Premium Quality</h1>
+            <p class="mb-6">
+              Gongcha tea is made with the finest tea leaves, using the finest
+              tea gardens in China. We use the highest grade tea to ensure the
+              highest quality and authenticity of the tea. The tea leaves are
+              sourced from the highest grade tea gardens in China. We also use
+              the finest tea ceremony and tea-making techniques to ensure the
+              highest quality of the tea.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- review section  -->
+    <section class="my-16 mx-auto">
+      <div
+        class="bg-gradient-to-r from-orange-500 to-red-500 rounded-xl flex items-center justify-between w-10/12 p-16 mx-auto"
+      >
+        <!-- text section  -->
+        <div class="w-5/12 text-white">
+          <h1 class="text-5xl font-extrabold mb-4">
+            Meet Our Super <br />
+            Clients.
+          </h1>
+          <p class="text-stone-100 my-6 text-xl">
+            We have been serving traditional Chinese tea since 2006. Our
+            customers have raved about the quality, freshness, and presentation
+            of our tea. We are proud to say that our customers are loyal to us
+            and continue to come back for more.
+          </p>
+          <button class="bg-white text-orange-600 p-2 font-bold rounded-lg">
+            Show All
+          </button>
+        </div>
+        <!-- review cards section  -->
+        <div class="relative w-1/2">
+          <!-- card 1  -->
+          <div
+            class="card absolute top-44 mx-auto z-10 my-8 shadow-md rounded-xl bg-white w-3/4"
+          >
+            <div class="p-6">
+              <img
+                class="absolute -left-6 -top-5 bg-white p-1 rounded-full"
+                src="./images/client.png"
+                alt=""
+              />
+
+              <p class="text-lg text-gray-500 my-6">
+                The first time I tried this tea, I was immediately hooked. It
+                was so smooth and refreshing. The taste was just perfect. I
+                highly recommend this tea to anyone looking for a refreshing and
+                delicious tea.
+              </p>
+              <h2 class="text-2xl font-bold my-2">John Doe</h2>
+              <small>Businessman</small>
+            </div>
+          </div>
+
+          <!-- card 2  -->
+          <div
+            class="card relative opacity-40 mx-auto my-8 shadow-md rounded-xl bg-white w-3/4"
+          >
+            <div class="p-6">
+              <img
+                class="absolute -left-6 -top-5 bg-white p-1 rounded-full"
+                src="./images/client.png"
+                alt=""
+              />
+
+              <p class="text-lg text-gray-500 my-6">
+                The first time I tried this tea, I was immediately hooked. It
+                was so smooth and refreshing. The taste was just perfect. I
+                highly recommend this tea to anyone looking for a refreshing and
+                delicious tea.
+              </p>
+              <h2 class="text-2xl font-bold my-2">John Doe</h2>
+              <small>Businessman</small>
+            </div>
+          </div>
+
+          <!-- card 3  -->
+
+          <div
+            class="card relative opacity-40 mx-auto my-8 shadow-md rounded-xl bg-white w-3/4"
+          >
+            <div class="p-6">
+              <img
+                class="absolute -left-6 -top-5 bg-white p-1 rounded-full"
+                src="./images/client.png"
+                alt=""
+              />
+
+              <p class="text-lg text-gray-500 my-6">
+                The first time I tried this tea, I was immediately hooked. It
+                was so smooth and refreshing. The taste was just perfect. I
+                highly recommend this tea to anyone looking for a refreshing and
+                delicious tea.
+              </p>
+              <h2 class="text-2xl font-bold my-2">John Doe</h2>
+              <small>Businessman</small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- news and events section -->
+    <section>
+      <div class="section-container w-10/12 my-12 mx-auto">
+        <!-- heading  -->
+        <div class="heading w-10/12 text-center my-10 mx-auto">
+          <h2 class="lg:text-5xl font-extrabold lg:mb-4">News and Events</h2>
+          <p class="text-gray-500">
+            Stay updated with the latest news, events, and promotions from our
+            company.
+          </p>
+        </div>
+
+        <!-- news and events cards  -->
+        <div class="cards-container flex justify-between">
+          <!-- card 1  -->
+          <div class="card w-3/12 p-3 border rounded-xl">
+            <figure>
+              <img class="w-full" src="./images/news-1.png" alt="" />
+              <figcaption class="my-2">Feb 05, 2027</figcaption>
+            </figure>
+            <h1 class="text-xl font-bold my-6">
+              Gongcha Tea Company Launches <br />
+              New Tea Type: Elegant Tea
+            </h1>
+            <p class="text-gray-800 mb-6">
+              Introducing a new type of elegant gongcha tea, featuring rich
+              flavors, unique aromas, and a unique presentation. This tea type
+              will become an exclusive offer for our customers.
+            </p>
+            <a href="#" class="btn btn-primary font-extrabold">Read More</a>
+          </div>
+
+          <!-- card 2  -->
+          <div class="card w-3/12 p-3 border rounded-xl">
+            <figure>
+              <img class="w-full" src="./images/news-2.png" alt="" />
+              <figcaption class="my-2">Jan 15, 2027</figcaption>
+            </figure>
+            <h1 class="text-xl font-bold my-6">
+              Gongcha Tea Company Announces <br />
+              New Location: New York City
+            </h1>
+            <p class="text-gray-800 mb-6">
+              We are excited to announce the opening of our new location in New
+              York City. We will continue to serve our customers with the best
+              in gongcha tea and the best in tea ceremony.
+            </p>
+            <a href="#" class="btn btn-primary font-extrabold">Read More</a>
+          </div>
+
+          <!-- card 3  -->
+          <div class="card w-3/12 p-3 border rounded-xl">
+            <figure>
+              <img class="w-full" src="./images/news-3.png" alt="" />
+              <figcaption class="my-2">Dec 10, 2026</figcaption>
+            </figure>
+            <h1 class="text-xl font-bold my-6">
+              Gongcha Tea Company Launches <br />
+              New Tea Type: Sweet Tea
+            </h1>
+            <p class="text-gray-800 mb-6">
+              Introducing a new type of sweet gongcha tea, featuring rich
+              flavors, unique aromas, and a unique presentation. This tea type
+              will become an exclusive offer for our customers.
+            </p>
+            <a href="#" class="btn btn-primary font-extrabold">Read More</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="bg-orange-100">
+      <div class="footer-container p-8 w-9/12 mx-auto">
+        <!-- top section  -->
+        <div class="flex justify-between my-4">
+          <div>
+            <img src="./images/cup.png" alt="" />
+          </div>
+          <div class="flex items-center gap-3">
+            <h1 class="text-gray-800">Ready To Get Started?</h1>
+            <button
+              class="bg-gradient-to-r from-orange-500 to-red-500 px-3 py-2 rounded-lg text-white font-bold"
+            >
+              Get Started
+            </button>
+          </div>
+        </div>
+
+        <!-- bottom section  -->
+        <div class="flex justify-between my-14">
+          <!-- first col  -->
+          <div>
+            <h1 class="font-bold text-xl mb-4">Quick Links</h1>
+            <ul>
+              <li><a class="hover:text-orange-500" href="">Home</a></li>
+              <li><a class="hover:text-orange-500" href="">About</a></li>
+              <li><a class="hover:text-orange-500" href="">Insurance</a></li>
+              <li>
+                <a class="hover:text-orange-500" href="">Privacy Policy</a>
+              </li>
+            </ul>
+          </div>
+
+          <!-- second col  -->
+          <div>
+            <h1 class="font-bold text-xl mb-4">Our Services</h1>
+            <ul>
+              <li><a class="hover:text-orange-500" href="">Life Insurance</a></li>
+              <li><a class="hover:text-orange-500" href="">Health Insurance</a></li>
+              <li><a class="hover:text-orange-500" href="">Car Insurance</a></li>
+              <li>
+                <a class="hover:text-orange-500" href="">Privacy Policy</a>
+              </li>
+            </ul>
+          </div>
+
+          <!-- third col  -->
+          <div>
+            <h1 class="font-bold text-xl mb-4">Help</h1>
+            <ul>
+              <li><a class="hover:text-orange-500" href="">FAQs</a></li>
+              <li><a class="hover:text-orange-500" href="">Contact Us</a></li>
+            </ul>
+          </div>
+
+          <!-- fourth col -->
+          <div>
+            <h1 class="font-bold text-xl mb-4">Subscribe to our newsletter</h1>
+            <div class="flex gap-2">
+              <input
+                type="text"
+                placeholder="Enter your email address"
+                class="w-full bg-transparent border-b-2 border-black focus:outline-none focus:border-orange-500"
+              />
+              <!--font awesome icon  -->
+              <i
+                class="fa-solid fa-chevron-right h-7 w-7 bg-orange-600 rounded-full text-white flex items-center justify-center"
+              ></i>
+            </div>
+            <!-- social icons -->
+            <div class="icons my-4">
+              <a href="#"
+                ><i class="fab fa-facebook-f text-2xl hover:text-orange-500"></i
+              ></a>
+              <a href="#"
+                ><i
+                  class="fab fa-twitter text-2xl ml-5 hover:text-orange-500"
+                ></i
+              ></a>
+              <a href="#"
+                ><i
+                  class="fab fa-instagram text-2xl ml-5 hover:text-orange-500"
+                ></i
+              ></a>
+              <a href="#"
+                ><i
+                  class="fab fa-youtube text-2xl ml-5 hover:text-orange-500"
+                ></i
+              ></a>
+            </div>
+          </div>
+        </div>
+        <div>
+          <p class="text-gray-700 text-center mt-20">
+            &copy; 2023 Gongcha Tea Company. All rights reserved.
+          </p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
